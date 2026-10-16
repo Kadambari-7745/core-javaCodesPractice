@@ -1,0 +1,25 @@
+package JavaPrograms;
+
+public class factorial {
+	
+	
+	int fact(int n) {
+		
+		if(n==1) 
+			
+			return 1;
+
+		else 
+			
+			return n * fact(n-1);
+	}
+	
+	public static void main(String[] args) {
+		
+		factorial obj = new factorial();
+		
+		System.out.println("factorial= "+ obj.fact(4)); 
+		
+	}
+
+}
